@@ -33,7 +33,7 @@ class BookReps():
         },
         {
             'regex': True,
-            'find': u'!book=/lha-sa-gnas-yig/wb/[\w\-]+/"\s+onmousedown="javascript: \s*document.cookie=&quot;' \
+            'find': u'!book=/***BKNAME***/wb/[\w\-]+/"\s+onmousedown="javascript: \s*document.cookie=&quot;' \
                     u'THLanchor=([\w\-]+);\s+path=/&quot;;',
             'rep': r'\1'
         },
